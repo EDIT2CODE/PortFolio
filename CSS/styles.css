@@ -1,5 +1,7 @@
 body{
+    padding: 0;
     padding-top: 150px;
+    
 }
 
 header {
@@ -53,7 +55,7 @@ nav ul li a{
     padding: 0.6em 1.2em;
 }
 
-h2{
+h2, h3{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: uppercase;
 }
@@ -93,6 +95,9 @@ td{
 }
 
 footer p{
-    font-family:'Times New Roman', Times, serif
+    font-family:'Times New Roman', Times, serif;
+    background-color: green;
+    padding: 10px 20px;
+    width: 100%;
 }
 
