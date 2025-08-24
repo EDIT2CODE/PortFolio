@@ -1,6 +1,5 @@
 body{
     padding-top: 150px;
-    background-color: rgb(189, 226, 189);
 }
 
 header {
@@ -66,6 +65,30 @@ main ul li a{
     text-decoration: none;
     text-transform: uppercase;
     color: rgb(31, 124, 39);
+}
+
+table{
+    background-color: rgb(78, 78, 78);
+    width: 45%;
+}
+
+th{
+    height: 40px;
+    background-color: rgb(69, 214, 69);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+td{
+    height: 60px;
+    background-color: aliceblue;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.school{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(42, 209, 50);
 }
 
 footer p{
