@@ -1,7 +1,7 @@
 body{
     padding: 0;
     padding-top: 150px;
-    
+    background-color: rgb(236, 240, 237);
 }
 
 header {
@@ -11,6 +11,7 @@ header {
   transform: translateX(-50%);
   width: 100%;
   background-color: rgb(63, 165, 63);
+  z-index: 1000000;
 }
 
 header a{
@@ -55,7 +56,16 @@ nav ul li a{
     padding: 0.6em 1.2em;
 }
 
-h2, h3{
+hr{
+    opacity: 50%;
+}
+
+h2{
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+h3{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: uppercase;
 }
@@ -67,7 +77,20 @@ p{
 main ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: rgb(31, 124, 39);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#Instagram{
+    color: purple
+}
+
+#Gmail{
+    color: #eb3a34;
+}
+
+#Linkedin{
+    color: #0e76a8;
 }
 
 table{
